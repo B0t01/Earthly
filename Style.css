@@ -4,10 +4,12 @@
 }
 
 .icon{
-    width: fit-content;
-    background: linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50% ,url(Background_02.jpg));
-    background-size: cover;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0.952)) ,url(Background_02.jpg);
+    background-size:cover;
     background-position: center;
+    height: 100vh;
+    
 
 }
 
@@ -20,7 +22,9 @@
 }
 
 .Logo{
-    width:1000px;
+    width:110px;
     height: auto;
-    
+    margin: 12px;
+    border: 10px;
+
 }
