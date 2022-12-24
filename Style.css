@@ -5,7 +5,22 @@
 
 .icon{
     width: fit-content;
-    background: linear-gradient( to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50% ,url(Backgrounds/Background_02.jpg));
+    background: linear-gradient( rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50% ,url(Backgrounds/Background_02.jpg));
     background-size: cover;
+    background-position: center;
 
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
 }
