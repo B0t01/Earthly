@@ -4,11 +4,12 @@
 }
 
 .icon{
-    width: 100%;
+   
     background: linear-gradient(to top, rgba(0, 0, 0, 0.048), rgba(0, 0, 0, 0.952)) ,url(Background_02.jpg);
     background-size:cover;
     background-position: center;
     height: 100vh;
+    min-height: 100px;
     
 
 }
@@ -31,13 +32,22 @@
 }
 
 ul{
-    width: 400px;
-    float: left;
-  justify-content: center;
-align-items: center;}
+    
+    list-style-type: none;
+    float: right;
+}
 
 ul li{
-
-    list-style: none;
+     display: inline;
+     
     
+}
+ul li a{
+    text-decoration: none;
+
+    color: aliceblue;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px;
+
 }
