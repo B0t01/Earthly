@@ -39,8 +39,8 @@ ul{
 
 ul li{
      display: inline;
-     
-    
+     border: 5px;
+
 }
 ul li a{
     text-decoration: none;
@@ -48,6 +48,15 @@ ul li a{
     color: aliceblue;
     font-size: 30px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 20px;
+    
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s;
+}
 
+
+
+.ul li a:hover{
+    background-color: aliceblue;
+    color: black;
 }
